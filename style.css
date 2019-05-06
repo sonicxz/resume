@@ -91,15 +91,20 @@ th{
     line-height: 3;
     color:#11999E;
 }
+.grid-container{
+    display:inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    text-align:left;
+    grid-column-gap:60px;
+   
+}
 .skill-name{
-    float:left;
-    position:relative;
-    left:30%;
+    margin:10%;
     font-weight: 800;
 }
 .battery{
-    position:relative;
-    left:10%
+    margin:10%;
 }
 #s-skill{
     background-color:#E4F9F5;
