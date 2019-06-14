@@ -1,132 +1,140 @@
 *{
-  box-sizing: border-box;
-}
-body{
-    text-align:center;
-}
-hr{
+    box-sizing: border-box;
+  }
+  body{
+      text-align:center;
+  }
+  hr{
+      
+      height:3px;
+      width:10%;
+      display:block;
+      margin-top: 3em;
+      margin-bottom: 3em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: dotted none none;
+      border-width: 5px;
+      border-color:rgb(145, 192, 192);
+      
+  }
+  h1{
+      color:rgb(82, 49, 10);
+  }
+  h2{
+      font-family: 'Sacramento', cursive;
+      font-size:3rem;
+      color:#66BFBF;
+  }
+  h3{
+      color: rgb(5, 82, 150);
+  }
+  p{
+      font-family: 'Nunito', sans-serif;
+      color:#11999E;
+      text-shadow:1px 0 1px rgb(26, 194, 194);
+  }
+  .navbar{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color:#66BFBF;
+      padding:20px;
+  }
+  .listbar{ 
+      display:inline;
+      line-height: 2;
+  }
+  .listbar a {
+      color: #fff;
+      padding: 8px 16px;
+      text-decoration: none;
+  }
     
-    height:3px;
-    width:10%;
-    display:block;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: dotted none none;
-    border-width: 5px;
-    border-color:rgb(145, 192, 192);
-    
-}
-h1{
-    color:rgb(82, 49, 10);
-}
-h2{
-    font-family: 'Sacramento', cursive;
-    font-size:3rem;
-    color:#66BFBF;
-}
-h3{
-    color: rgb(5, 82, 150);
-}
-p{
-    font-family: 'Nunito', sans-serif;
-    color:#11999E;
+    /* Change the link color on hover */
+  li a:hover {
+      background-color:#ff4c68;
+      color: white;
+  }
+  th{
+      color:#66BFBF;
+  }
+  #Title{
+      background-color:#E4F9F5;
+      padding:7% 10%;
+      margin:5%
+  }
+  .DP{
+      float:left;
+      width:15%;
+      margin:0 9px 0;
+  }
+  .Table{
+      margin:auto;
+      text-shadow:1px 0 1px rgb(26, 194, 194);
+      position:relative;
+      left:5%;
+  }
+  #Experience h3{
+    color:rgb(5, 117, 117);
+  }
+  #Experience ol{
+    margin:0 28%;
+    text-align: justify;
+    line-height: 1.5;
     text-shadow:1px 0 1px rgb(26, 194, 194);
-}
-.navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color:#66BFBF;
-    padding:20px;
-}
-.listbar{ 
-    display:inline;
-}
-.listbar a {
-    color: #fff;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-  
-  /* Change the link color on hover */
-li a:hover {
-    background-color:#ff4c68;
-    color: white;
-}
-th{
-    color:#66BFBF;
-}
-#Title{
-    background-color:#E4F9F5;
-    padding:7% 10%;
-    margin:5%
-}
-.DP{
-    float:left;
-    width:15%;
-    margin:0 9px 0;
-}
-.Table{
-    text-align:center;
-    margin:auto;
-    width:100%;
-    text-shadow:1px 0 1px rgb(26, 194, 194);
-}
-.one{
-    position:relative;
-    left:10%;
-   
-}
-.project{
-    text-decoration: none;
-    font-weight: 700;
-    color:#000;
-}
-.project:hover{
-    color:#ff4c68;
-}
-#education{
-    background-color:#E4F9F5;
-}
-.skill-height{
+  }
+  .project{
+      text-decoration: none;
+      font-weight: 700;
+      color:#000;
+  }
+  .project:hover{
+      color:#ff4c68;
+  }
+  #education{
+      background-color:#E4F9F5;
+  }
+  .grid-container{
+    font-weight: 800;
     line-height: 3;
     color:#11999E;
 }
-.grid-container{
-    display:inline-grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto;
-    text-align:left;
-    grid-column-gap:60px;
-   
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
 }
-.skill-name{
-    margin:10%;
-    font-weight: 800;
+.col{
+    float: left;
+    padding: 15px;
+    width: 25%;
 }
-.battery{
-    margin:10%;
-}
-#s-skill{
-    background-color:#E4F9F5;
-}
-#footer{
-    margin:5%;
-    background-color:#66BFBF;
-    text-align:center;
-    margin-top:10%;
-}
-.footer-icon{
-    margin: 2% .7%;
-    color:#000;
-    
-}
-.footer-icon:hover{
-    color:#ff4c68;
-    text-decoration:none;
-}
-.contact{
-    color:#fff;
-}
+/* .skill-name{
+    display:inline;
+} */
+  #s-skill{
+      background-color:#E4F9F5;
+  }
+  #footer{
+      margin:5%;
+      background-color:#66BFBF;
+      margin-top:10%;
+  }
+  .footer-icon{
+      margin: 2% .7%;
+      color:#000;
+      
+  }
+  .footer-icon:hover{
+      color:#ff4c68;
+      text-decoration:none;
+  }
+  .contact{
+      color:rgb(238, 231, 231);
+  }
+  #footer p span{
+    font-family: 'Sacramento', cursive;
+  }
+  
