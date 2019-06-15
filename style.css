@@ -67,7 +67,7 @@
       flex-flow:row wrap;
   }
   #Title img{
-      width:10rem;
+      width:5rem;
       margin:0 2% 0 22.25%;
   }
   .Table{
@@ -110,12 +110,12 @@
 .col-1{
     float: left;
     padding: .5%;
-    width: 23%;
+    width: 24%;
 }
 .col-2{
     float:left;
     padding:.5%;
-    width: 27%;
+    width: 26%;
 }
 /* .skill-name{
     display:inline;
