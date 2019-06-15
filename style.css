@@ -62,12 +62,13 @@
   #Title{
       background-color:#E4F9F5;
       padding:7% 10%;
-      margin:5%
+      margin:5%;
+      display:flex;
+      flex-flow:row wrap;
   }
-  .DP{
-      float:left;
-      width:15%;
-      margin:0 9px 0;
+  #Title img{
+      width:10rem;
+      margin:0 2% 0 22.25%;
   }
   .Table{
       margin:auto;
@@ -106,10 +107,15 @@
     display: table;
 
 }
-.col{
+.col-1{
     float: left;
     padding: .5%;
-    width: 25%;
+    width: 23%;
+}
+.col-2{
+    float:left;
+    padding:.5%;
+    width: 27%;
 }
 /* .skill-name{
     display:inline;
