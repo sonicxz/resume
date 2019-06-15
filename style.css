@@ -25,6 +25,7 @@
       font-family: 'Sacramento', cursive;
       font-size:3rem;
       color:#66BFBF;
+      margin:auto;
   }
   h3{
       color: rgb(5, 82, 150);
@@ -62,13 +63,19 @@
   #Title{
       background-color:#E4F9F5;
       padding:7% 10%;
-      margin:5%;
+      margin:2%;
       display:flex;
       flex-flow:row wrap;
   }
   #Title img{
-     width:10rem;
-     margin:0 2rem 0 6rem;
+      width:100%;
+      max-width:160px;
+      height:auto;
+      margin:auto;
+  }
+  #Title p{
+      margin:auto;
+      line-height: 2;
   }
   .Table{
       margin:auto;
@@ -110,12 +117,12 @@
 .col-1{
     float: left;
     padding: .5%;
-    width: 24%;
+    width: 23%;
 }
 .col-2{
     float:left;
     padding:.5%;
-    width: 26%;
+    width: 27%;
 }
 /* .skill-name{
     display:inline;
