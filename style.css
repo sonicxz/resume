@@ -71,6 +71,7 @@
       width:100%;
       max-width:160px;
       margin:auto;
+      border-radius:50%;
   }
   #Title p{
       margin:auto;
